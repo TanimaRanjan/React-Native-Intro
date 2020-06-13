@@ -8,6 +8,8 @@ import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import ChangeColor2 from './src/screens/ChangeColor2';
 import PrintInput from './src/screens/PrintInput';
+import BoxScreen from './src/screens/BoxScreen';
+import FlexScreen from './src/screens/FlexScreen';
 
 const navigator = createStackNavigator(
   {
@@ -18,8 +20,9 @@ const navigator = createStackNavigator(
     Counter:CounterScreen,
     Color:ColorScreen,
     Change:ChangeColor2,
-    Print:PrintInput
-
+    Print:PrintInput,
+    BoxS:BoxScreen,
+    Flex:FlexScreen
   },
   {
     initialRouteName: "Home",
