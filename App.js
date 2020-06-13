@@ -10,6 +10,7 @@ import ChangeColor2 from './src/screens/ChangeColor2';
 import PrintInput from './src/screens/PrintInput';
 import BoxScreen from './src/screens/BoxScreen';
 import FlexScreen from './src/screens/FlexScreen';
+import PositionScreen from './src/screens/PositionScreen';
 
 const navigator = createStackNavigator(
   {
@@ -22,7 +23,8 @@ const navigator = createStackNavigator(
     Change:ChangeColor2,
     Print:PrintInput,
     BoxS:BoxScreen,
-    Flex:FlexScreen
+    Flex:FlexScreen,
+    Pos:PositionScreen
   },
   {
     initialRouteName: "Home",

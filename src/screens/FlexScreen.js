@@ -16,30 +16,31 @@ const style = StyleSheet.create({
     viewStyle: {
         borderWidth:1,
         borderColor:'black',
-        flex:1,
-        height:'100%',
-        // flexDirection:'row',
+        // flex:1,
+        // height:'100%',
+        flexDirection:'row',
         alignItems:"center",
-        justifyContent:"space-around"
+        justifyContent:"space-around",
+        height:200
         
     }, 
     textStyle : {
-        flex:2,
-        
+        // flex:2,
         fontSize:20,
         borderWidth:1,
-        borderColor:'red'
+        borderColor:'red',
+        alignSelf:'flex-end'
     },
     text1: {
         alignSelf:'flex-start',
-        flex:1,
+        // flex:1,
         fontSize:20,
         borderWidth:1,
         borderColor:'red'
     },
     text3: {
-        alignSelf:'flex-end',
-        flex:2,
+        alignSelf:'flex-start',
+        // flex:2,
         fontSize:20,
         borderWidth:1,
         borderColor:'red'

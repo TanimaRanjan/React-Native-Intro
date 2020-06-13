@@ -45,6 +45,10 @@ const HomeScreen = ({navigation}) => {
             onPress={() => navigation.navigate("Flex")}
             title="Go to Flex Screen "
         /> 
+      <Button 
+        onPress={() => navigation.navigate("Pos")}
+        title="Go to Position Screen "
+      /> 
     </View>
     )
 };
