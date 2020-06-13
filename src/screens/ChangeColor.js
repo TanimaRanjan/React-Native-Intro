@@ -49,8 +49,9 @@ const ChangeColor = () => {
                     onDec={() => {setColor('blue',-1 * COLOR_INC)}} />
 
 
-                <View style={{width:100, height:100, 
-                    backgroundColor:`rgb(${red},${green},${blue})`}} />
+                <View style={{width:'70%', height:100, 
+                    backgroundColor:`rgb(${red},${green},${blue})`,
+                     margin:'15%'}} />
                     
 
         </View>
