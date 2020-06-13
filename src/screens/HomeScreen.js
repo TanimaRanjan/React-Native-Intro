@@ -35,11 +35,21 @@ const HomeScreen = ({navigation}) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 35,
-    backgroundColor:'pink',
-    borderBottomColor:'blue',
+    backgroundColor:'steelblue',
+    // flex:1,
+    width:'100%',
+    // height:'100%',
+    // flexDirection:'row',
+    // borderBottomColor:'blue',
+    textAlign:"center",
     marginTop:50,
-    borderBottomWidth:67,
+    marginBottom:20
+    // borderBottomWidth:67,
     
+  },
+  viewStyle : {
+    flex:1,
+    flexDirection:'row'
   }
 });
 
