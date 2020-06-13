@@ -33,6 +33,10 @@ const HomeScreen = ({navigation}) => {
           onPress={() => navigation.navigate("Change")}
           title="Go to Change Color Screen "
            /> 
+      <Button 
+          onPress={() => navigation.navigate("Print")}
+          title="Go to Print name Screen "
+          /> 
     </View>
     )
 };

@@ -7,6 +7,7 @@ import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import ChangeColor2 from './src/screens/ChangeColor2';
+import PrintInput from './src/screens/PrintInput';
 
 const navigator = createStackNavigator(
   {
@@ -16,7 +17,8 @@ const navigator = createStackNavigator(
     Image:ImageScreen,
     Counter:CounterScreen,
     Color:ColorScreen,
-    Change:ChangeColor2
+    Change:ChangeColor2,
+    Print:PrintInput
 
   },
   {
